@@ -21,6 +21,9 @@ Change your directory to the JIRA\bin folder.
            $> cd C:\Program Files\Atlassian\JIRA\bin
                  Now run the following command to start the JIRA server
            $> start-jira.bat \fg
+16.	Open up a browser window, type in the following and hit Enter: 
+            http://localhost:8080
+17.	Select “Set it up for me” and click on Continue to My Atlassian.
                 This will start the JIRA server on your machine
                 Following variables will be displayed on your cmd terminal
                 Using CATALINA_BASE:   "C:\Program Files\Atlassian\JIRA"
@@ -28,3 +31,7 @@ Change your directory to the JIRA\bin folder.
                       Using CATALINA_TMPDIR: "C:\Program Files\Atlassian\JIRA\temp"
                       Using JRE_HOME:        "C:\Program Files\Atlassian\JIRA\jre\"
                       CLASSPATH: "C:\Program Files\Atlassian\JIRA\bin\bootstrap.jar;C:\Program Files\Atlassian\JIRA\bin\tomcat-  juli.jar"
+16.	Open up a browser window, type in the following and hit Enter: 
+            http://localhost:8080
+
+17.	Select ¿Set it up for me¿ and click on Continue to My Atlassian.
