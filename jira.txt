@@ -1,0 +1,30 @@
+JIRA Installation and Configuration
+The installation and configuration was done on my home machine:
+1.	Go to https://www.atlassian.com/software/jira/download and download JIRA Software Server.
+2.	Click on the Download button and save the file “atlassian-jira-software-<version>.exe” to your local drive.
+3.	Right click on the file and Run as administrator.
+4.	Follow the instructions 
+5.	Welcome to the JIRA Software Installation Wizard, Click on Next
+6.	Select Express Install (use default settings) and hit Next
+7.	Change it to Private Network and click on Allow Access
+8.	Verify your directory path and proceed with Install 
+9.	Installation will begin
+10.	Click Next to start the JIRA software.
+11.	Launching JIRA software.
+12.	Click Finish
+13.	It may give you the following error message as the JIRA server has not started.
+14.	Verify the directory path where JIRA was installed. 
+The default location is C:\Program Files\Atlassian\JIRA
+
+15.	In the search bar type in cmd and run it as administrator.
+Change your directory to the JIRA\bin folder. 
+           $> cd C:\Program Files\Atlassian\JIRA\bin
+                 Now run the following command to start the JIRA server
+           $> start-jira.bat \fg
+                This will start the JIRA server on your machine
+                Following variables will be displayed on your cmd terminal
+                Using CATALINA_BASE:   "C:\Program Files\Atlassian\JIRA"
+                      Using CATALINA_HOME:   "C:\Program Files\Atlassian\JIRA"
+                      Using CATALINA_TMPDIR: "C:\Program Files\Atlassian\JIRA\temp"
+                      Using JRE_HOME:        "C:\Program Files\Atlassian\JIRA\jre\"
+                      CLASSPATH: "C:\Program Files\Atlassian\JIRA\bin\bootstrap.jar;C:\Program Files\Atlassian\JIRA\bin\tomcat-  juli.jar"
