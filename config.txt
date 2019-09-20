@@ -1,0 +1,9 @@
+git config --global http.schannel.checkRevoke false
+
+    it config http.sslCAInfo
+    Return Example: "C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt"
+
+Add to global configuration
+
+    git config --global http.sslBackend "openssl"
+    git config --global http.sslCAInfo "C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt"
